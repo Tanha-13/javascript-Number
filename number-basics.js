@@ -20,8 +20,15 @@ const floatingNumber1 = 23.8966;
 const floatingNumber2 = 23.7866;
 const floatingNumber3 = 123.7866;
 const floatingNumber4 = 1123.7866;
-console.log(floatingNumber1.toPrecision(3));
-console.log(floatingNumber2.toPrecision(3));
-console.log(floatingNumber3.toPrecision(3));
-console.log(floatingNumber4.toPrecision(3));
+// console.log(floatingNumber1.toPrecision(3));
+// console.log(floatingNumber2.toPrecision(3));
+// console.log(floatingNumber3.toPrecision(3));
+// console.log(floatingNumber4.toPrecision(3));
+
+
+// topic: toLocalString
+const hundreds = 1000000;
+console.log(hundreds.toLocaleString());
+console.log(hundreds.toLocaleString('en-IN'));
+console.log(hundreds.toLocaleString('en-BD'));
 
