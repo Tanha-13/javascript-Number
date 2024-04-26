@@ -1,5 +1,5 @@
 // console.log(Math);
-
+//todo: static method vs instance method
 
 /**Methods*/
 // topic: abs 
